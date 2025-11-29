@@ -1,8 +1,4 @@
 *
-!weakness/**
-!icons/
-!lootable/**
-!monsters/
 !.htaccess
 !index.php
 !robots.txt
