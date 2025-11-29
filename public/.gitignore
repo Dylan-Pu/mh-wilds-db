@@ -1,2 +1,12 @@
 *
-!.gitignore
+!weakness/**
+!icons/
+!lootable/**
+!monsters/
+!.htaccess
+!index.php
+!robots.txt
+!favicon.ico
+!css/
+!js/
+!build/
