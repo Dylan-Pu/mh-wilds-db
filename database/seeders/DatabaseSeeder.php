@@ -9,8 +9,10 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // On vide la table monsters avant de reseeder
-        DB::table('monsters')->truncate();
+        DB::table('monster_parts')->delete();
+        DB::table('monster_drops')->delete();
+        DB::table('monsters')->delete();
+
 
         // On lance notre seeder MH Wilds
         $this->call(MonsterHunterWildsSeeder::class);
