@@ -12,7 +12,7 @@
     ]
   },
   "deploy": {
-    "startCommand": "php artisan migrate --force && php artisan db:seed --force",
+    "startCommand": "@php artisan migrate:fresh --seed --force",
     "healthcheckPath": "/",
     "port": 8080
   },
