@@ -15,6 +15,7 @@ return new class extends Migration
             $table->string('icon');
             $table->string('image');
             $table->boolean('is_large')->default(true);
+            $table->json('affliction_weaknesses')->nullable();
 
             $table->timestamps();
         });
