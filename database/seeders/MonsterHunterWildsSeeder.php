@@ -2484,6 +2484,7 @@ class MonsterHunterWildsSeeder extends Seeder
                 'icon'       => $m['icon'],
                 'image'      => $m['image'],
                 'is_large'   => true,
+                'affliction_weaknesses' => $m['affliction_weaknesses'],
             ]);
 
             // PARTS → table monster_parts
